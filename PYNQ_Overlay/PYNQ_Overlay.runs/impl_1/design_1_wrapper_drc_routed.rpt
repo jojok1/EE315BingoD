@@ -1,0 +1,356 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Thu Apr  6 19:10:28 2023
+| Host         : LAPTOP-PM3670FV running 64-bit major release  (build 9200)
+| Command      : report_drc -file design_1_wrapper_drc_routed.rpt -pb design_1_wrapper_drc_routed.pb -rpx design_1_wrapper_drc_routed.rpx
+| Design       : design_1_wrapper
+| Device       : xc7z020clg400-1
+| Speed File   : -1
+| Design State : Fully Routed
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 64
++----------+----------+-------------------+------------+
+| Rule     | Severity | Description       | Violations |
++----------+----------+-------------------+------------+
+| PDRC-153 | Warning  | Gated clock check | 64         |
++----------+----------+-------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+PDRC-153#1 Warning
+Gated clock check  
+Net design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[10]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[10]_LDC_i_1/O, cell design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[10]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#2 Warning
+Gated clock check  
+Net design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[11]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[11]_LDC_i_1/O, cell design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[11]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#3 Warning
+Gated clock check  
+Net design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[12]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[12]_LDC_i_1/O, cell design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[12]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#4 Warning
+Gated clock check  
+Net design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[13]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[13]_LDC_i_1/O, cell design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[13]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#5 Warning
+Gated clock check  
+Net design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[14]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[14]_LDC_i_1/O, cell design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[14]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#6 Warning
+Gated clock check  
+Net design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[15]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[15]_LDC_i_1/O, cell design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[15]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#7 Warning
+Gated clock check  
+Net design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[16]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[16]_LDC_i_1/O, cell design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[16]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#8 Warning
+Gated clock check  
+Net design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[17]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[17]_LDC_i_1/O, cell design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[17]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#9 Warning
+Gated clock check  
+Net design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[18]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[18]_LDC_i_1/O, cell design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[18]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#10 Warning
+Gated clock check  
+Net design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[19]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[19]_LDC_i_1/O, cell design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[19]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#11 Warning
+Gated clock check  
+Net design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[1]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[1]_LDC_i_1/O, cell design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[1]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#12 Warning
+Gated clock check  
+Net design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[20]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[20]_LDC_i_1/O, cell design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[20]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#13 Warning
+Gated clock check  
+Net design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[21]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[21]_LDC_i_1/O, cell design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[21]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#14 Warning
+Gated clock check  
+Net design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[22]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[22]_LDC_i_1/O, cell design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[22]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#15 Warning
+Gated clock check  
+Net design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[23]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[23]_LDC_i_1/O, cell design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[23]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#16 Warning
+Gated clock check  
+Net design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[24]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[24]_LDC_i_1/O, cell design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[24]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#17 Warning
+Gated clock check  
+Net design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[25]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[25]_LDC_i_1/O, cell design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[25]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#18 Warning
+Gated clock check  
+Net design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[26]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[26]_LDC_i_1/O, cell design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[26]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#19 Warning
+Gated clock check  
+Net design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[27]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[27]_LDC_i_1/O, cell design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[27]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#20 Warning
+Gated clock check  
+Net design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[28]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[28]_LDC_i_1/O, cell design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[28]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#21 Warning
+Gated clock check  
+Net design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[29]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[29]_LDC_i_1/O, cell design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[29]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#22 Warning
+Gated clock check  
+Net design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[2]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[2]_LDC_i_1/O, cell design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[2]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#23 Warning
+Gated clock check  
+Net design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[30]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[30]_LDC_i_1/O, cell design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[30]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#24 Warning
+Gated clock check  
+Net design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[31]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[31]_LDC_i_1/O, cell design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[31]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#25 Warning
+Gated clock check  
+Net design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[32]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[32]_LDC_i_1/O, cell design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[32]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#26 Warning
+Gated clock check  
+Net design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[33]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[33]_LDC_i_1/O, cell design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[33]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#27 Warning
+Gated clock check  
+Net design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[34]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[34]_LDC_i_1/O, cell design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[34]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#28 Warning
+Gated clock check  
+Net design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[35]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[35]_LDC_i_1/O, cell design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[35]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#29 Warning
+Gated clock check  
+Net design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[36]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[36]_LDC_i_1/O, cell design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[36]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#30 Warning
+Gated clock check  
+Net design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[37]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[37]_LDC_i_1/O, cell design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[37]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#31 Warning
+Gated clock check  
+Net design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[38]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[38]_LDC_i_1/O, cell design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[38]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#32 Warning
+Gated clock check  
+Net design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[39]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[39]_LDC_i_1/O, cell design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[39]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#33 Warning
+Gated clock check  
+Net design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[3]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[3]_LDC_i_1/O, cell design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[3]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#34 Warning
+Gated clock check  
+Net design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[40]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[40]_LDC_i_1/O, cell design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[40]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#35 Warning
+Gated clock check  
+Net design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[41]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[41]_LDC_i_1/O, cell design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[41]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#36 Warning
+Gated clock check  
+Net design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[42]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[42]_LDC_i_1/O, cell design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[42]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#37 Warning
+Gated clock check  
+Net design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[43]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[43]_LDC_i_1/O, cell design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[43]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#38 Warning
+Gated clock check  
+Net design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[44]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[44]_LDC_i_1/O, cell design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[44]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#39 Warning
+Gated clock check  
+Net design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[45]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[45]_LDC_i_1/O, cell design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[45]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#40 Warning
+Gated clock check  
+Net design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[46]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[46]_LDC_i_1/O, cell design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[46]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#41 Warning
+Gated clock check  
+Net design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[47]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[47]_LDC_i_1/O, cell design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[47]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#42 Warning
+Gated clock check  
+Net design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[48]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[48]_LDC_i_1/O, cell design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[48]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#43 Warning
+Gated clock check  
+Net design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[49]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[49]_LDC_i_1/O, cell design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[49]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#44 Warning
+Gated clock check  
+Net design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[4]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[4]_LDC_i_1/O, cell design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[4]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#45 Warning
+Gated clock check  
+Net design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[50]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[50]_LDC_i_1/O, cell design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[50]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#46 Warning
+Gated clock check  
+Net design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[51]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[51]_LDC_i_1/O, cell design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[51]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#47 Warning
+Gated clock check  
+Net design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[52]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[52]_LDC_i_1/O, cell design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[52]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#48 Warning
+Gated clock check  
+Net design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[53]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[53]_LDC_i_1/O, cell design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[53]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#49 Warning
+Gated clock check  
+Net design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[54]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[54]_LDC_i_1/O, cell design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[54]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#50 Warning
+Gated clock check  
+Net design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[55]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[55]_LDC_i_1/O, cell design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[55]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#51 Warning
+Gated clock check  
+Net design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[56]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[56]_LDC_i_1/O, cell design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[56]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#52 Warning
+Gated clock check  
+Net design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[57]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[57]_LDC_i_1/O, cell design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[57]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#53 Warning
+Gated clock check  
+Net design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[58]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[58]_LDC_i_1/O, cell design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[58]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#54 Warning
+Gated clock check  
+Net design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[59]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[59]_LDC_i_1/O, cell design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[59]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#55 Warning
+Gated clock check  
+Net design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[5]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[5]_LDC_i_1/O, cell design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[5]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#56 Warning
+Gated clock check  
+Net design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[60]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[60]_LDC_i_1/O, cell design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[60]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#57 Warning
+Gated clock check  
+Net design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[61]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[61]_LDC_i_1/O, cell design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[61]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#58 Warning
+Gated clock check  
+Net design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[62]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[62]_LDC_i_1/O, cell design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[62]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#59 Warning
+Gated clock check  
+Net design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[63]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[63]_LDC_i_1/O, cell design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[63]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#60 Warning
+Gated clock check  
+Net design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[64]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[64]_LDC_i_1/O, cell design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[64]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#61 Warning
+Gated clock check  
+Net design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[6]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[6]_LDC_i_1/O, cell design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[6]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#62 Warning
+Gated clock check  
+Net design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[7]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[7]_LDC_i_1/O, cell design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[7]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#63 Warning
+Gated clock check  
+Net design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[8]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[8]_LDC_i_1/O, cell design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[8]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#64 Warning
+Gated clock check  
+Net design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[9]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[9]_LDC_i_1/O, cell design_1_i/LFSR_AXI_64BIT_0/U0/LFSR_AXI_63BIT_v1_0_S00_AXI_inst/LFSR_0/Stages_LFSR_reg[9]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z020clg400-1" LaunchTime="1680619462">
+  <File Type="BITSTR-BMM" Name="LFSR_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="LFSR_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="LFSR_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="LFSR_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="LFSR.tcl"/>
+  <File Type="OPT-TIMING" Name="LFSR_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="LFSR_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="LFSR_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="LFSR_reports.tcl"/>
+  <File Type="OPT-DRC" Name="LFSR_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="LFSR.hwdef"/>
+  <File Type="PWROPT-DCP" Name="LFSR_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="LFSR_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="LFSR_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="LFSR_placed.dcp"/>
+  <File Type="PLACE-IO" Name="LFSR_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="LFSR_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="LFSR_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="LFSR_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="LFSR_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="LFSR_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="LFSR_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="LFSR_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="LFSR_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="LFSR.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="LFSR_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="LFSR_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="LFSR_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="LFSR.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="LFSR_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="LFSR_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="LFSR_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="LFSR_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="LFSR_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="LFSR_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="LFSR_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="LFSR.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="LFSR_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="LFSR_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="LFSR_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="LFSR_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="LFSR_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="LFSR_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="LFSR_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="LFSR_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="LFSR_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="LFSR_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="LFSR_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="LFSR_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="LFSR_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="LFSR_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="LFSR_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="LFSR_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="LFSR_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="LFSR_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="LFSR_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="LFSR_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="LFSR_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="LFSR.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="LFSR_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="LFSR.rbt"/>
+  <File Type="BITSTR-NKY" Name="LFSR.nky"/>
+  <File Type="PDI-FILE" Name="LFSR.pdi"/>
+  <File Type="RCFI_FILE" Name="LFSR.rcfi"/>
+  <File Type="CFI_FILE" Name="LFSR.cfi"/>
+  <File Type="RNPI_FILE" Name="LFSR.rnpi"/>
+  <File Type="NPI_FILE" Name="LFSR.npi"/>
+  <File Type="RBD_FILE" Name="LFSR.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="LFSR.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="LFSR.sysdef"/>
+  <File Type="BG-BGN" Name="LFSR.bgn"/>
+  <File Type="BG-DRC" Name="LFSR.drc"/>
+  <File Type="RDI-RDI" Name="LFSR.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/LFSR.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Bingo.vhd">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="LFSR"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/pynq-z2_v1.0.xdc/PYNQ-Z2 v1.0.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Assignment/PYNQ Files/pynq-z2_v1.0.xdc/PYNQ-Z2 v1.0.xdc"/>
+        <Attr Name="ImportTime" Val="1680121737"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

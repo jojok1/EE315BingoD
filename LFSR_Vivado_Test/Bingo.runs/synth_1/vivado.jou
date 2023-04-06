@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Tue Apr  4 15:44:24 2023
+# Process ID: 8540
+# Current directory: C:/Users/Angus/Desktop/EE315/VHDL/Assignment_Vivado/Bingo/Bingo.runs/synth_1
+# Command line: vivado.exe -log LFSR.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source LFSR.tcl
+# Log file: C:/Users/Angus/Desktop/EE315/VHDL/Assignment_Vivado/Bingo/Bingo.runs/synth_1/LFSR.vds
+# Journal file: C:/Users/Angus/Desktop/EE315/VHDL/Assignment_Vivado/Bingo/Bingo.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source LFSR.tcl -notrace
