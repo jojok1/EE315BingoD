@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/Angus/Desktop/EE315/VHDL/Assignment_Vivado/PYNQ_Overlay/PYNQ_Overlay.runs/synth_1'
+HD_PWD='C:/Users/Angus/Documents/GitHub/EE315BingoD/PYNQ_Overlay/PYNQ_Overlay.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

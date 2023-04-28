@@ -2,11 +2,11 @@
 # Vivado v2020.1 (64-bit)
 # SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
 # IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
-# Start of session at: Thu Apr  6 19:05:57 2023
-# Process ID: 4120
-# Current directory: C:/Users/Angus/Desktop/EE315/VHDL/Assignment_Vivado/PYNQ_Overlay/PYNQ_Overlay.runs/design_1_processing_system7_0_0_synth_1
+# Start of session at: Fri Apr 28 01:31:47 2023
+# Process ID: 12056
+# Current directory: C:/Users/Angus/Documents/GitHub/EE315BingoD/PYNQ_Overlay/PYNQ_Overlay.runs/design_1_processing_system7_0_0_synth_1
 # Command line: vivado.exe -log design_1_processing_system7_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_processing_system7_0_0.tcl
-# Log file: C:/Users/Angus/Desktop/EE315/VHDL/Assignment_Vivado/PYNQ_Overlay/PYNQ_Overlay.runs/design_1_processing_system7_0_0_synth_1/design_1_processing_system7_0_0.vds
-# Journal file: C:/Users/Angus/Desktop/EE315/VHDL/Assignment_Vivado/PYNQ_Overlay/PYNQ_Overlay.runs/design_1_processing_system7_0_0_synth_1\vivado.jou
+# Log file: C:/Users/Angus/Documents/GitHub/EE315BingoD/PYNQ_Overlay/PYNQ_Overlay.runs/design_1_processing_system7_0_0_synth_1/design_1_processing_system7_0_0.vds
+# Journal file: C:/Users/Angus/Documents/GitHub/EE315BingoD/PYNQ_Overlay/PYNQ_Overlay.runs/design_1_processing_system7_0_0_synth_1\vivado.jou
 #-----------------------------------------------------------
 source design_1_processing_system7_0_0.tcl -notrace

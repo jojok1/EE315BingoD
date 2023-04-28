@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/Angus/Desktop/EE315/VHDL/Assignment_Vivado/PYNQ_Overlay/PYNQ_Overlay.runs/impl_1'
+HD_PWD='C:/Users/Angus/Documents/GitHub/EE315BingoD/PYNQ_Overlay/PYNQ_Overlay.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -41,7 +41,7 @@ EAStep()
 }
 
 # pre-commands:
-/bin/touch .init_design.begin.rst
+/bin/touch .write_bitstream.begin.rst
 EAStep vivado -log design_1_wrapper.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source design_1_wrapper.tcl -notrace
 
 

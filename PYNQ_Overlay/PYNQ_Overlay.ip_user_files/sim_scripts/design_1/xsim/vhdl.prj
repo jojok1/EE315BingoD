@@ -1,9 +1,10 @@
 vhdl xil_defaultlib  \
 "../../../bd/design_1/ip/design_1_rst_ps7_0_100M_0/sim/design_1_rst_ps7_0_100M_0.vhd" \
-"../../../bd/design_1/sim/design_1.vhd" \
 "../../../bd/design_1/ipshared/56b7/src/LFSR.vhd" \
 "../../../bd/design_1/ipshared/56b7/hdl/LFSR_AXI_63BIT_v1_0_S00_AXI.vhd" \
 "../../../bd/design_1/ipshared/56b7/hdl/LFSR_AXI_63BIT_v1_0.vhd" \
 "../../../bd/design_1/ip/design_1_LFSR_AXI_63BIT_0_8/sim/design_1_LFSR_AXI_63BIT_0_8.vhd" \
+"../../../bd/design_1/ip/design_1_axi_gpio_0_0/sim/design_1_axi_gpio_0_0.vhd" \
+"../../../bd/design_1/sim/design_1.vhd" \
 
 nosort

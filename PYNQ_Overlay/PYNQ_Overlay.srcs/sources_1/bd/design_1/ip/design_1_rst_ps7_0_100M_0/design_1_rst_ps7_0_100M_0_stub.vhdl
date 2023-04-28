@@ -1,10 +1,10 @@
 -- Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
--- Date        : Wed Apr  5 23:38:27 2023
+-- Date        : Wed Apr 26 16:48:58 2023
 -- Host        : LAPTOP-PM3670FV running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode synth_stub
---               c:/Users/Angus/Desktop/EE315/VHDL/Assignment_Vivado/PYNQ_Overlay/PYNQ_Overlay.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0_stub.vhdl
+-- Command     : write_vhdl -force -mode synth_stub -rename_top design_1_rst_ps7_0_100M_0 -prefix
+--               design_1_rst_ps7_0_100M_0_ design_1_rst_ps7_0_100M_0_stub.vhdl
 -- Design      : design_1_rst_ps7_0_100M_0
 -- Purpose     : Stub declaration of top-level module interface
 -- Device      : xc7z020clg400-1
